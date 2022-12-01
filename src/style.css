@@ -1,0 +1,90 @@
+body {
+  padding: 0 20px;
+  font-family: "Nunito", sans-serif;
+}
+
+h1,
+p {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: 850;
+}
+
+h5,
+h4 {
+  padding-left: 10px;
+}
+
+button {
+  background: green;
+  color: white;
+  border: rgb(0, 63, 0);
+}
+
+h5,
+p,
+.next {
+  color: black;
+  opacity: 0.43;
+}
+
+.next:hover {
+  opacity: 100%;
+}
+
+.next {
+  font-size: 20px;
+  font-weight: 700;
+}
+.card {
+  border-color: lightskyblue;
+}
+
+.card:hover {
+  border-width: 1.5px;
+  transition: all 150ms ease-in-out;
+  opacity: 0.95;
+  background-color: #f7fbffe7;
+}
+.country {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.temp,
+.feels {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.col-sm-3,
+.col-sm-6 {
+  color: black;
+  opacity: 0.43;
+  text-align: left;
+}
+.arrowuno,
+.arrowdos {
+  color: black;
+  opacity: 0.2;
+}
+
+.arrowuno:hover {
+  color: gold;
+}
+
+.arrowdos:hover {
+  color: #002ac0;
+}
+
+.sun {
+  color: gold;
+}
