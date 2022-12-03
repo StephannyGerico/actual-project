@@ -3,13 +3,13 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
-.place {
+#place {
   display: block;
   text-align: center;
   margin: 0 auto;
 }
 
-.place {
+#place {
   font-size: 60px;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -20,7 +20,7 @@ h4 {
   padding-left: 10px;
 }
 
-.button {
+#button {
   background: green;
   color: white;
   border: rgb(0, 63, 0);
@@ -37,8 +37,8 @@ h4 {
   background-color: #f7fbffe7;
 }
 
-.temp,
-.feels {
+#temp,
+#feels {
   text-align: center;
   font-size: 70px;
   font-weight: 700;
@@ -50,24 +50,11 @@ h4 {
   opacity: 0.43;
   text-align: left;
 }
-.arrowuno,
-.arrowdos {
+#arrow {
   color: black;
   opacity: 0.2;
   display: block;
   text-align: center;
   margin: 0 auto;
   font-weight: 700;
-}
-
-.arrowuno:hover {
-  color: gold;
-}
-
-.arrowdos:hover {
-  color: #002ac0;
-}
-
-.sun {
-  color: gold;
 }
