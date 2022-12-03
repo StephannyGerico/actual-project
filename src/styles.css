@@ -3,46 +3,29 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
-h1,
-p {
+.place {
   display: block;
   text-align: center;
   margin: 0 auto;
 }
 
-h1 {
+.place {
   font-size: 60px;
   margin-bottom: 0;
   padding-bottom: 0;
   font-weight: 850;
 }
 
-h5,
 h4 {
   padding-left: 10px;
 }
 
-button {
+.button {
   background: green;
   color: white;
   border: rgb(0, 63, 0);
 }
 
-h5,
-p,
-.next {
-  color: black;
-  opacity: 0.43;
-}
-
-.next:hover {
-  opacity: 100%;
-}
-
-.next {
-  font-size: 20px;
-  font-weight: 700;
-}
 .card {
   border-color: lightskyblue;
 }
@@ -52,10 +35,6 @@ p,
   transition: all 150ms ease-in-out;
   opacity: 0.95;
   background-color: #f7fbffe7;
-}
-.country {
-  margin-top: 0;
-  padding-top: 0;
 }
 
 .temp,
@@ -75,6 +54,10 @@ p,
 .arrowdos {
   color: black;
   opacity: 0.2;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 700;
 }
 
 .arrowuno:hover {
