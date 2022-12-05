@@ -40,9 +40,9 @@ let searchForm = document.querySelector("#search");
 searchForm.addEventListener("submit", handleSubmit);
 
 function showTemperature(response) {
-  document.querySelector("#temp").innerHTML = Math.round(
-    response.data.main.temp
-  );
+  let degress = Math.round(response.data.main.temp);
+  let temp = document.querySelector("#temp");
+  temp.innerHTML = `${degress} °C`;
 
   document.querySelector("#place").innerHTML = response.data.name;
 
