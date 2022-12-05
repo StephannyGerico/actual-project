@@ -37,8 +37,7 @@ h4 {
   background-color: #f7fbffe7;
 }
 
-#temp,
-#feels {
+#temp {
   text-align: center;
   font-size: 70px;
   font-weight: 700;
@@ -50,15 +49,23 @@ h4 {
   opacity: 0.43;
   text-align: left;
 }
-#arrow {
+
+.arrowuno,
+.arrowdos {
   color: black;
   opacity: 0.2;
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-  font-weight: 700;
+}
+
+.arrowuno:hover {
+  color: gold;
+}
+
+.arrowdos:hover {
+  color: #002ac0;
 }
 
 p {
-  padding-left: 10px;
+  display: block;
+  padding-left: 60px;
+  margin: 0 auto;
 }
